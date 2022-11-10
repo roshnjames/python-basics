@@ -1,12 +1,13 @@
-dict1={}
-n=int(input("Enter the number of elements in dictionary"))
-for i in range(0,n):
-    key=input("Enter the key")
-    val=int(input("enter the value"))
-    dict1[key]=val
-temp=0
-print(dict1)
-sorted_dt = {key: value for key, value in sorted(dict1.items(), key=lambda item: item[1])}
+dict={}
+n=int(input("Enter No of Elements in Dictionary : "))
+for i in range(n):
+	key=input("\nEnter the Key : ")
+	value=input("Enter the Value : ")
+	dict[key]=value
 
-print(sorted_dt)
+a_s_dict=sorted(dict.items(),reverse=0)
+d_s_dict=sorted(dict.items(),reverse=1)
+
+print("\nAscending Order : ",a_s_dict)
+print("\nDescending Order : ",d_s_dict)
 
