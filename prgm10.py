@@ -7,5 +7,5 @@ for i in range(0,n):
     else:
         l.append(ele)
 
-print("Creatd list is")
+print("Created list is")
 print(l)
