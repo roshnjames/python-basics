@@ -12,8 +12,8 @@ for i in range(0,m):
     key=input("Enter the key")
     val=int(input("enter the value"))
     dict2[key]=val
-print(dict1)
-print(dict2)
+#print(dict1)
+#print(dict2)
 
 
 d3={**dict1,**dict2}
